@@ -19,7 +19,7 @@ resol = (900,700)
 
 camera = cv2.VideoCapture(0)
 
-ser = serial.Serial ("/dev/ttyAMA0")    #Open named port 
+ser = serial.Serial ("/dev/ttyS0")    #Open named port 
 ser.baudrate = 9600	                     #Set baud rate to 9600
 while True:
 		
